@@ -6,11 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>當沖jojo Plus</title>
   <link rel="stylesheet" href="style.css" />
-  <link rel="manifest" href="manifest.json" />
 </head>
 <body>
   <h1>當沖jojo Plus</h1>
-  <div id="stock-table"></div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>代號</th>
+        <th>名稱</th>
+        <th>價格</th>
+        <th>建議方向</th>
+      </tr>
+    </thead>
+    <tbody id="stock-table-body">
+    </tbody>
+  </table>
+
+  <audio id="audio-multi" src="long.mp3" preload="auto"></audio>
+  <audio id="audio-short" src="short.mp3" preload="auto"></audio>
+
   <script src="main.js"></script>
 </body>
 </html>

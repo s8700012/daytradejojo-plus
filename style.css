@@ -1,15 +1,21 @@
 
 body {
   font-family: Arial, sans-serif;
+  padding: 20px;
   text-align: center;
-  padding: 1em;
 }
-#stock-table {
-  margin-top: 1em;
+h1 {
+  font-size: 28px;
 }
-.stock-row {
-  display: flex;
-  justify-content: space-between;
-  padding: 0.5em;
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+th, td {
+  padding: 10px;
   border-bottom: 1px solid #ccc;
+}
+th {
+  background-color: #f0f0f0;
 }
