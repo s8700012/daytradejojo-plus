@@ -1,0 +1,15 @@
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 1em;
+}
+#stock-table {
+  margin-top: 1em;
+}
+.stock-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em;
+  border-bottom: 1px solid #ccc;
+}

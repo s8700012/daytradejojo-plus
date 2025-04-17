@@ -1,0 +1,10 @@
+
+{
+  "name": "當沖jojo Plus",
+  "short_name": "jojo",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "description": "模擬即時股價 + AI 多空判斷",
+  "icons": []
+}
